@@ -1,0 +1,11 @@
+inherit gnome2
+
+CATEGORY="LXDE"
+SUMMARY="Openbox configuration plugin for LXAppearance"
+DESCRIPTION="This plugin is derived from ObConf as an attempt to
+integrate obconf with LXAppearance to provide a better user experience."
+HOMEPAGE="http://lxde.org/"
+SRC_URI="mirror://sourceforge/lxde/${P}.tar.gz"
+PATCH_URI="01-no-undefined.patch"
+
+KEEP_LA_FILES="none"

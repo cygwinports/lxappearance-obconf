@@ -1,0 +1,11 @@
+--- origsrc/lxappearance-obconf-0.2.0/Makefile.am	2012-04-16 15:03:31.000000000 -0500
++++ src/lxappearance-obconf-0.2.0/Makefile.am	2012-08-17 03:13:47.155228800 -0500
+@@ -39,6 +39,8 @@ src_obconf_la_LIBADD = \
+ 
+ src_obconf_la_LDFLAGS = \
+ 	-module \
++	-avoid-version \
++	-no-undefined \
+ 	@LXAPPEARANCE_MODULE@
+ 
+ src_obconf_la_SOURCES = \
